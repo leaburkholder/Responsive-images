@@ -1,6 +1,6 @@
 body
 {
-    background-color: black;
+    background-color: white;
 }
 img
 {
@@ -9,6 +9,37 @@ img
 .hero {
     height: 30vh;
 width: 100%;
+ background-position: center center;
 background-image: url('/images/hero.jpg');
 background-size: cover;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.profile img {
+object-fit: contain;
+}
+.profile-name{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cat{
+   
+}
+.cat img{
+    object-fit: cover;
+    height: 400px;
 }
